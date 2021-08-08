@@ -1,0 +1,113 @@
+div{
+    width: 100%;
+    height: 99vh;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+#number{
+    margin-left: 170px;
+    margin-top: 20px;
+
+}
+
+body button{
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+body input{
+    font-size: 15px;
+    border: 2px solid black;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 159px;
+}
+#deletall{
+    background-color: yellow;
+}
+
+.three{
+    background-color: red;
+}
+
+.four{
+    background-color: skyblue;
+}
+
+body table{
+    font-size: 15px;
+    margin-left: 167px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.tr{
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    margin-top: 5px;
+   
+}
+
+.td{
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    
+  
+  
+}
+
+.sno{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 99px;
+    height: 10px;
+    font-weight: bold;
+    border: 2px solid white;
+    color: white;
+}
+.dt{
+    background-color: yellow;
+    
+}
+
+.dall{
+    background-color:yellow;
+}
+.dalll{
+    background-color:yellow;
+    margin-left: 5px;
+}
+.conf{
+    background-color:red;
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.ins{
+    margin-left: 50px;
+}
+
+.edi{
+    margin-left: 3px;
+    margin-right: 2px;
+}
+
+.e{
+    margin-left: 3px;
+    margin-right: 3px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="finalstyle.css">
+
+</head>
+<body>
+    <div>
+    <input type="text" placeholder="enter serial number"  id="number">
+    <input type="text" placeholder="enter name" id="name">
+    <input type="text" placeholder="salary" id="salary">
+    <input type="text" placeholder="days avaliable in job" id="days">
+    <button onclick="employeename(); theadd();">Insert Data</button>
+    <button id="deletall"  onclick="deletall(this); conformm(this);">Delet All</button>
+    <button id="conform" class="conformm" onclick="conformall(this)">conform</button>
+    <button id="cancle" class="canclee" onclick="canclee(this)">cancle </button>
+    <table id="table">
+        <thead id="thead" class="thead"> 
+            <tr>
+                <td class="sno">S.No</td>
+                <td class="sno">Name</td>
+                <td class="sno">Salary</td>
+                <td class="sno">DAys avaliable</td>
+                <td class="sno">Per day salary</td>
+                <td class="sno">Total Salary</td>
+            </tr>
+            <br><br>
+        </thead>
+
+        <tbody id="tbody">
+
+
+        </tbody>
+    </table>
+</div>
+
+    
+</body>
+<script src="app.js"></script>
+</html>
