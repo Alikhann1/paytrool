@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="tic" id="tic">Tic Tac Toe</h1>
+    <div class="turns" id="turns">
+        <span class="playerx turn" id="playerx"> X turn</span>
+        <span class="playero" id="playero">O turn</span>
+    </div>
+    
+
+    <div class="gameboard ">
+
+        <div class="row" id="row">
+            <div class="col " id="col" onclick="game(this)"></div>
+            <div class="col" id="col" onclick="game(this)"></div>
+            <div class="col" id="col" onclick="game(this)"></div>
+        </div>
+        <div class="row" id="roww">
+            <div class="col" onclick="game(this)"></div>
+            <div class="col" onclick="game(this)"></div>
+            <div class="col" onclick="game(this)"></div>
+        </div>
+        <div class="row" id="rowww">
+            <div class="col" onclick="game(this)"></div>
+            <div class="col" onclick="game(this)"></div>
+            <div class="col" onclick="game(this)"></div>
+        </div>
+
+        <button class="Reset_button" id="Reset_button"  onclick="reset()">Reset</button>
+    </div>
+
+    <div class="wining display" id="wining">
+        <div class="player display" id="x">
+            <h2 class="x xx " id="x">Player X Win</h2>
+            <button class="exit" onclick="exit()">Exit</button>
+        </div>
+        <div class="player display" id="o">
+            <h2 class="o oo" id="o">Player O Win</h2>
+            <button class="exit" onclick="exit()">Exit</button>
+        </div>
+        <div class="player display" id="draw">
+            <h2 class="draw" id="draw">Match Draw</h2>
+            <button class="exit" onclick="exit()">Exit</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

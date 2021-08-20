@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.gameboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+}
+
+.gameboard .row {
+    height: 32%;
+}
+
+.gameboard .row .col {
+    height: 100%;
+    width: 32%;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    color: black;
+}
+
+.gameboard .Reset_button {
+    position: absolute;
+    margin-top: 50px;
+    left: 0%;
+    font-size: 50px;
+    width: 300px;
+    color: white;
+    background-color: black;
+    border: black;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.disable {
+    pointer-events: none;
+}
+
+.tic {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    font-size: 55px;
+    font-family: sans-serif;
+}
+
+.wining {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.wining .player {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.wining .player .x,
+.wining .player .o,
+.wining .player .draw {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 70px;
+    color: white;
+}
+.wining .player .exit {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 70px;
+    color: black;
+    padding: 0pc 20px;
+
+}
+
+.turns {
+    border: 2px solid black;
+    display: inline;
+    padding: 5px 0px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 76%;
+
+}
+.turns .playero,
+.turns .playerx{
+ padding: 6px 50px;
+ font-weight: bold;
+ border-radius: 6px;
+
+}
+
+.turn{
+ background-color: black;
+ color: white;
+}
+.turnn{
+ background-color: black;
+ color: white;
+}
+.display{
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .o {
+        font-size: 38px;
+        top: 40%;
+    }
+    .x {
+        font-size: 38px;
+        top: 40%;
+    }
+    .draw {
+        font-size: 38px;
+        top: 40%;
+    }
+    .exit {
+        font-size: 30px;
+        top: 55%;
+    }
+    .row {
+        height: 20%;
+        margin-left: 60px;
+    }
+    .col {
+        width: 24%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Reset_button {
+        margin-top: 18px;
+        width: 185px;
+        margin-left: 60px;
+        font-size: 29px;
+        padding: 5px 0px;
+    }
+    .gameboard {
+        margin-top: 60px;
+    }
+    .tic {
+        margin-top: 3px;
+        font-size: 35px;
+    }
+    .turns {
+        border: 2px solid black;
+        display: inline;
+        padding: 2px 0px;
+        border-radius: 10px;
+        bottom: 79%;
+        margin-left: 2px;
+    
+    }
+    .playero,
+    .playerx{
+     padding: 3px 20px;
+     font-weight: bold;
+     border-radius: 6px;
+    
+    }
+}
+
+@media (max-width: 320px) {
+    .x {
+        font-size: 25px;
+        top: 45%;
+    }
+    .o {
+        font-size: 25px;
+        top: 45%;
+    }
+    .draw {
+        font-size: 25px;
+        top: 45%;
+    }
+    .exit {
+        font-size: 30px;
+        top: 55%;
+    }
+    .tic {
+        margin-top: 12px;
+    }
+    .Reset_button {
+        margin-top: 65px;
+        font-size: 20px;
+    }
+    .tic {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    .col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .turns {
+        border: 2px solid black;
+        display: inline;
+        padding: 2px 0px;
+        border-radius: 10px;
+        bottom: 73%;
+        margin-left: 2px;
+    
+    }
+    .playero,
+    .playerx{
+     padding: 3px 13px;
+     font-weight: bold;
+     border-radius: 6px;
+    
+    }
+}

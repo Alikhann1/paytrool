@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="start_button" id="start_button" > <button onclick="start()">Start Quiz</button></div>
+    <div class="info_box" id="info_box">
+        <div class="info_title" id="info_title">
+            <span>Some Rules Of This Quiz.</span>
+        </div>
+        <div class="info_list" id="info_list">
+            <div class="info" id="info">1.Thinks <span>10 times</span> before selecting your answer.</div>
+            <div class="info" id="info">2.Once you selected you answer, you can't reselect.</div>
+            <div class="info" id="info">3.You can't go back once you have move forward.</div>
+            <div class="info" id="info">4.you can't exit from the quiz while you're playing.</div>
+            <div class="info" id="info">5.You'll get points on the basis of your current answers.</div>
+        </div>
+        <div class="buttons" id="buttons">
+            <button class="quit" id="quit" onclick="exit()">Exit quiz</button>
+            <button class="start" id="start" onclick="cont()">continue</button>
+        </div>
+    </div>
+
+    <div class="quiz_box" id="quiz_box">
+        <header>
+            <div class="title" id="title">Quiz Application</div>
+        </header>
+        <section>
+            <div class="que_text" id="que_text">
+
+            </div>
+            <div class="option_list" id="option_list">
+               
+            </div>
+            
+
+           
+        </section>
+        <footer>
+            <div class="total_que" id="total_que">
+            </div>
+            <button class="next_btn" id="next_btn" onclick="nextbtn()">Next que</button>
+        </footer>
+    </div>
+
+
+    <div class="result_box" id="result_box">
+        <div class="icon" id="icon">
+            <!-- <i class="far fa-smile"></i> -->
+        </div>
+        <div class="complete_text">You're completed the quiz!</div>
+        <div class="score_text">
+            <!-- <span>and sorry, You got only <p>2</p>out of <p>5</p></span> -->
+        </div>
+        <div class="buttons">
+            <button class="restart" id="restart" onclick="restart()">Replay Quiz</button>
+            <button class="quit" id="quit" onclick="quit()">Quit Quiz</button>
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+<script src="questions.js"></script>
+</html>

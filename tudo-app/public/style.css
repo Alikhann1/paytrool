@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+}
+
+
+.divv{
+    display: inline;
+    position: absolute;
+    left: 57%;
+    
+}
+
+
+
+#firstdiv{
+    background-color: red;
+    width: 50%;
+    height: 590px;
+    justify-content: center;
+    margin-left: 25%;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.heading{
+    display: flex;
+    text-align: center;
+    margin-left: 35%;
+    padding-top: 20px;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#seconddiv{
+    display: flex;
+    justify-content: center;
+
+}
+#seconddiv input{
+    width: 60%;
+    height: 40px;
+    margin-top: 0px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+#seconddiv button{
+    margin-top: 0px;
+    margin-right: 15px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+li{
+    color: rgb(8, 8, 8);
+   line-height: 10px;
+   font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15px;
+    width: 100px;
+    margin-top: 25px;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+li div button{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.editbtn{
+    margin-left: 10px;
+}
+
+
+
+
+
+
